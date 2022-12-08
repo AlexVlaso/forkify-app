@@ -81,6 +81,5 @@ function init() {
   searchView.addHandlerRender(renderSearchRecipes);
   pageView.addHandlerRender(controlPagination);
   addRecipeView._addHandlerSubmitRecipe(controlAddNewRecipe);
-  console.log('Welcome!');
 }
 init();
